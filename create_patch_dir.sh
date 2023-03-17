@@ -15,9 +15,14 @@ VOID_PKGS_DIR="${HOME}/Shelf/void-packages"
 
 # list of patches to download for application
 patch_list=(
-    "https://tools.suckless.org/dmenu/patches/xresources/"
-    "https://tools.suckless.org/dmenu/patches/highlight/"
-    "https://tools.suckless.org/dmenu/patches/line-height/"
+    "https://tools.suckless.org/dmenu/patches/lines-below-prompt/dmenu-linesbelowprompt-and-fullwidth-20211014.diff"
+    "https://tools.suckless.org/dmenu/patches/border/dmenu-border-5.2.diff"
+    "https://tools.suckless.org/dmenu/patches/xresources/dmenu-xresources-4.9.diff"
+    "https://tools.suckless.org/dmenu/patches/highlight/dmenu-highlight-20201211-fcdc159.diff"
+    "https://tools.suckless.org/dmenu/patches/line-height/dmenu-lineheight-5.2.diff"
+    "https://tools.suckless.org/dmenu/patches/tsv-alt/dmenu-tsv-alt-20220919-fce06f4.diff"
+    "https://tools.suckless.org/dmenu/patches/center/dmenu-center-5.2.diff"
+    "https://tools.suckless.org/dmenu/patches/xyw/dmenu-xyw-5.0.diff"
 )
 
 
